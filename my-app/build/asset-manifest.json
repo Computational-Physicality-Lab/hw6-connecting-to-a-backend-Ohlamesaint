@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d4f84cb5.css",
-    "main.js": "/static/js/main.b0d3abe6.js",
+    "main.css": "/static/css/main.0fbfc502.css",
+    "main.js": "/static/js/main.84c95619.js",
     "static/media/banner.png": "/static/media/banner.aed50a562e408acd2474.png",
     "static/media/beepboop-pink-back.png": "/static/media/beepboop-pink-back.e59eb1c42b206be9a290.png",
     "static/media/car-red-front.png": "/static/media/car-red-front.78c57d86f4b126495475.png",
@@ -11,6 +11,7 @@
     "static/media/beepboop-blue-front.png": "/static/media/beepboop-blue-front.449f5b65b7da5717a3f2.png",
     "static/media/car-red-back.png": "/static/media/car-red-back.bcb55771665b65690b8c.png",
     "static/media/beepboop-red-front.png": "/static/media/beepboop-red-front.3dba044f0718c6fff671.png",
+    "static/media/shirt-base.png": "/static/media/shirt-base.5f51c8a7d44dc56b6ec8.png",
     "static/media/car-blue-front.png": "/static/media/car-blue-front.3e9391363282bcfa680f.png",
     "static/media/car-green-front.png": "/static/media/car-green-front.d858279f2129013aee84.png",
     "static/media/car-green-back.png": "/static/media/car-green-back.5f2271f2937aaf466695.png",
@@ -36,11 +37,11 @@
     "static/media/cart.png": "/static/media/cart.a3b93dd126aed5c8fd5b.png",
     "static/media/logo.png": "/static/media/logo.d14d3cd1b79fb330c56c.png",
     "index.html": "/index.html",
-    "main.d4f84cb5.css.map": "/static/css/main.d4f84cb5.css.map",
-    "main.b0d3abe6.js.map": "/static/js/main.b0d3abe6.js.map"
+    "main.0fbfc502.css.map": "/static/css/main.0fbfc502.css.map",
+    "main.84c95619.js.map": "/static/js/main.84c95619.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4f84cb5.css",
-    "static/js/main.b0d3abe6.js"
+    "static/css/main.0fbfc502.css",
+    "static/js/main.84c95619.js"
   ]
 }

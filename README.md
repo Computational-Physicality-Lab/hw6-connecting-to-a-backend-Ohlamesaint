@@ -1,3 +1,19 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/v4VHUSr5)
-# hw6-connecting-to-a-backend
-This is the starter code of [2023-Programming User Interface Homework](https://hackmd.io/@akairisu/Sy8CUT3m3)
+# Name
+陳力聖
+
+# Website URL
+
+
+# Bugs
+
+
+# Bonus
+- 實作了 Display More 功能
+- 實作了匿名購物車功能
+
+# Difficulties
+- 本次作業第一次串接其他服務的 API，要處理一些異步問題，是以前沒有遇過的
+- 產生新衣服的 code 部分花了較多時間撰寫
+
+# Difference
+- 本次作業我使用了 typescript 作為開發的語言，因為相較於沒有強型別的 Javascript 來說，typescript 可以讓我以更加偏向 Object Oriented 的概念進行開發，並且設定好各個 type 的 interface
