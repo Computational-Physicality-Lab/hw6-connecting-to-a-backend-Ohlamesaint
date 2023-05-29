@@ -1,0 +1,37 @@
+.Home {
+  .main_picture {
+    .main_image {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+
+  #interesting_words {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    padding: 3vh 7.5vw;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5vw;
+  }
+
+  #interesting_words > div {
+    border-radius: 10px;
+    border: 5px solid #c51230;
+    padding: 3%;
+    font-weight: lighter;
+    height: 100%;
+  }
+
+  #interesting_words > div > h2 {
+    font-size: larger;
+    padding-bottom: 1rem;
+    color: #c51230;
+  }
+
+  #interesting_words > div > p {
+    color: lightslategrey;
+  }
+}

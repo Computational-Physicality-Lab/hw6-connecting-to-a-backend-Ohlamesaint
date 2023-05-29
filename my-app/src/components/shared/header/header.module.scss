@@ -1,0 +1,122 @@
+.Header {
+  height: 3vh;
+  background-color: #c51230;
+}
+
+.wrapper {
+  height: 15vh;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 5vw;
+}
+
+#homeLogo {
+  display: contents;
+  /* height: 15vh; */
+  /* background-image: url("./site_images/logo.png");
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat; */
+}
+
+#LogoImage {
+  margin: 1rem;
+
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: scale-down;
+  object-position: center;
+}
+
+#homeTitle {
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+}
+
+h1 {
+  width: 30vw;
+  height: inherit;
+  text-align: center;
+  line-height: 15vh;
+  font-size: x-large;
+}
+
+#homeCart {
+  margin: 1rem auto;
+  display: flex;
+  margin: 3rem 0;
+  max-width: max-content;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  width: 20vw;
+  font-size: large;
+  color: #993036;
+  border-radius: 5px;
+  img {
+    max-height: 100%;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100vw;
+  }
+
+  #homeLogo {
+    display: contents;
+    /* height: 15vh; */
+    /* background-image: url("./site_images/logo.png");
+          background-position: center;
+          background-size: contain;
+          background-repeat: no-repeat; */
+  }
+
+  #LogoImage {
+    margin: 0.5rem;
+    max-height: 10vh;
+  }
+
+  #homeTitle {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: xx-large;
+    line-height: 100%;
+    width: max-content;
+  }
+
+  #homeCart {
+    margin: 1rem auto;
+    flex-wrap: wrap;
+    display: flex;
+    max-width: max-content;
+    justify-content: center;
+    align-content: center;
+    font-size: medium;
+    color: #993036;
+    border-radius: 5px;
+    &:hover {
+      cursor: pointer;
+    }
+    img {
+      max-height: 3vh;
+      width: auto;
+    }
+  }
+
+  .body-wrapper {
+    margin: 1rem;
+  }
+}

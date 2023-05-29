@@ -1,0 +1,53 @@
+.ShirtCard {
+  border: 2px #c51230 solid;
+  border-radius: 10px;
+  height: max-content;
+  // background-image: url(${(shirts[i].colors.white.front)?shirts[i].colors.white.front:"./site_images/not-found.png"}); cursor: pointer;"
+  .product_image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 10px;
+
+    aspect-ratio: 406/473;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .product_title {
+    font-size: larger;
+    padding-bottom: 0.5rem;
+    color: #c51230;
+    font-weight: lighter;
+  }
+
+  .product_description_wrapper {
+    margin: 1vh 1vw;
+  }
+
+  .product_description {
+    color: lightslategrey;
+    font-weight: lighter;
+    margin-bottom: 0.5rem;
+  }
+
+  .product_button_wrapper {
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+  }
+
+  .card_button {
+    display: inline-block;
+    border-radius: 10%;
+    padding: 1vh 1vw;
+    background-color: #993036;
+    color: white;
+    cursor: pointer;
+  }
+}

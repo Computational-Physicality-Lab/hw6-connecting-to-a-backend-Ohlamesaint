@@ -1,0 +1,79 @@
+.CartItem {
+  
+  margin-bottom: 1rem;
+  border-top: 1px solid #993036;
+  //   max-height: 30vh;
+
+  .cart_item_title{
+    margin: 4vh .5vw;
+    font-size: x-large;
+    font-weight:bold;
+  }
+  .cart_item_content_wrapper{
+    margin: 1vh 1vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3vw;
+  }
+  .cart_item_image {
+    // display: max-content;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    // height: 100%;
+    
+    &:hover{
+        cursor: pointer;
+    }
+
+    .DefaultShirt {
+      background-image: url("../../../asset/assets/images/shirt-base.png");
+      background-position: center;
+      background-size: contain;
+      height: 30vh;
+      background-repeat: no-repeat;
+
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .UserSelectedImage {
+        // background-image: url("../../../asset/assets/images/scotty-2.png");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+
+        height: 7.5vh;
+        width: 7.5vh;
+        margin-bottom: 7.5vh;
+      }
+    }
+  }
+
+  #img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .cart_item_details {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    justify-content: top;
+    align-content: center;
+    padding: 1rem;
+  }
+  .remove_button{
+    background-color: #cc3036;
+    color: white;
+    padding: .75rem 1rem;
+    border-radius: 5px;
+    border: none;
+    // justify-content: center;
+    &:hover{
+        cursor: pointer;
+    }
+  }
+  
+}

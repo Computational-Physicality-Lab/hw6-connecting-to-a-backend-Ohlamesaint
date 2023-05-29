@@ -1,0 +1,22 @@
+.Product {
+    .product_body_wrapper {
+        padding: 0 5vw 3vh 5vw;
+      }
+      
+      #product_page_title {
+        height: 10vh;
+        padding: 3vh 0;
+        display: flex;
+      }
+      
+      #product_page_title > h2 {
+        font-size: x-large;
+      }
+      
+      .products {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1rem;
+      }
+      
+}

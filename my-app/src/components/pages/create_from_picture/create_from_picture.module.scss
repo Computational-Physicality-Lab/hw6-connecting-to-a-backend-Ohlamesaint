@@ -1,0 +1,99 @@
+.CreateFromPicture {
+  padding: 0 5vw 3vh 5vw;
+
+  display: grid;
+  grid-template-columns: 3fr 7fr;
+  gap: 20px;
+  height: 70vh;
+
+  .CreatePart {
+    margin-top: 10vh;
+
+    .DefaultShirt {
+      background-image: url("../../../asset/assets/images/shirt-base.png");
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 30vh;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .UserSelectedImage {
+        // background-image: url("../../../asset/assets/images/scotty-2.png");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+
+        height: 10vh;
+        width: 10vh;
+        margin-bottom: 20%;
+      }
+    }
+
+    .details_details {
+      display: flex;
+      flex-direction: column;
+      row-gap: 1rem;
+      justify-content: top;
+      align-content: center;
+      padding: 1rem;
+    }
+
+    .details_price {
+      color: #993036;
+      font-size: xx-large;
+    }
+
+    .details_button {
+      display: inline-block;
+      border-radius: 5px;
+      padding: 0.75rem 1rem 0.75rem 1rem;
+      background-color: #993036;
+      color: white;
+      cursor: pointer;
+      font-size: small;
+      margin-left: 1rem;
+      border: 1px solid #993036;
+      transition: 0.1s ease-in color;
+      &:hover {
+        color: black;
+      }
+      &:disabled {
+        background-color: gray;
+        border: 1px solid gray;
+        color: gainsboro;
+        border: none;
+      }
+    }
+  }
+
+  .SearchPart {
+    overflow-y: scroll;
+
+    .Search {
+      height: 10vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .SearchResult {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 10px;
+      img {
+        cursor: pointer;
+        max-width: 100%;
+        height: auto;
+      }
+    }
+
+    .DisplayMore {
+      height: 10vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

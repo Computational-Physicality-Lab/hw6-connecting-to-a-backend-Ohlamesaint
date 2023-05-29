@@ -1,0 +1,73 @@
+.Details {
+    .details_wrapper {
+        display: grid;
+        grid-template-columns: 3fr 7fr;
+        column-gap: 3vw;
+        margin-bottom: 1rem;
+      }
+      
+      .details_image {
+        display: max-content;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+      }
+      
+      #details_page_title {
+        font-weight: normal;
+        font-size: xx-large;
+        margin: 5vh 0;
+      }
+      
+      .details_details {
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+        justify-content: top;
+        align-content: center;
+        padding: 1rem;
+      }
+      
+      .details_price {
+        color: #993036;
+        font-size: xx-large;
+      }
+      
+      .details_description {
+        color: #993036;
+      }
+      
+      .details_button {
+        display: inline-block;
+        border-radius: 15%;
+        padding: 0.75rem 1rem 0.75rem 1rem;
+        background-color: #993036;
+        color: white;
+        cursor: pointer;
+        font-size: small;
+        margin-left: 1rem;
+        border: 1px solid #993036;
+        transition: 0.1s ease-in color;
+        &:hover{
+            color: black;
+        }
+        &:disabled{
+            background-color: gray;
+            border: 1px solid gray;
+            color: gainsboro;
+            border: none;
+        }
+      }
+      
+
+      .details_color_wrapper > div {
+        color: black;
+        transition: 0.1s ease-in color;
+        margin-bottom: 1rem;
+      }
+      
+      .details_color_wrapper > div:hover {
+        color: white;
+      }
+}

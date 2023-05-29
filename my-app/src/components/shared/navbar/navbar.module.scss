@@ -1,0 +1,47 @@
+.Navbar {
+  nav {
+    display: grid;
+    grid-gap: 10px;
+    height: 7vh;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    align-content: center;
+    box-shadow: inset 0px -1px 0.5px rgba(180, 190, 200, 0.5),
+      inset 0px 1px 0.5px rgba(180, 190, 200, 0.5);
+  }
+
+  nav > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav > a > span {
+    text-align: center;
+    color: #c51230;
+    font-weight: lighter;
+    font-size: large;
+    transition: border 0.5s;
+    border-bottom: 4px solid rgba(200, 18, 48, 0);
+    
+  }
+
+  nav > a > span:hover {
+    border-bottom: 4px solid rgba(200, 18, 48, 1);
+  }
+
+  /* toggle */
+  .toggle {
+    display: none;
+  }
+
+  .lbl-toggle {
+    display: none;
+  }
+
+  img {
+    border-radius: 50%;
+    max-height: 30%;
+    width: auto;
+  }
+}
