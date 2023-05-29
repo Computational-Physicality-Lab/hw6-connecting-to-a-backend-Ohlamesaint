@@ -1,46 +1,19 @@
-# Getting Started with Create React App
+# Name
+陳力聖
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Website URL
 
-## Available Scripts
 
-In the project directory, you can run:
+# Bugs
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Bonus
+- 實作了 Display More 功能
+- 實作了匿名購物車功能
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Difficulties
+- 本次作業第一次串接其他服務的 API，要處理一些異步問題，是以前沒有遇過的
+- 產生新衣服的 code 部分花了較多時間撰寫
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Difference
+- 本次作業我使用了 typescript 作為開發的語言，因為相較於沒有強型別的 Javascript 來說，typescript 可以讓我以更加偏向 Object Oriented 的概念進行開發，並且設定好各個 type 的 interface
